@@ -12,13 +12,13 @@
 @import url('https://clearvision.github.io/ClearVision-v6/main.css');
 
 :root {
-  --main-color: #3F51B5;
-  --hover-color: #E91E63;
-  --success-color: #43b581;
+  --main-color: #DF9690;
+  --hover-color: #E95E54;
+  --success-color: #F44336;
   --danger-color: #982929;
-  --url-color: var(--main-color);
-  --background-image: url('https://i.pinimg.com/564x/91/58/3c/91583c0ec50028ff4243ec9dde99a2bd.jpg');
-  --background-shading: 100%;
+  --url-color: #03A9F4;
+  --background-image: url('https://i.pinimg.com/564x/1a/b1/67/1ab16799244b7e69e0afa33e5ecbc2ee.jpg');
+  --background-shading: 0%;
   --background-position: center;
   --background-size: cover;
   --background-repeat: no-repeat;
@@ -30,7 +30,7 @@
   --background-invert: 0%;
   --background-blur: 0px;
   --background-overlay: rgba(0,0,0,0.6);
-  --user-popout-image: url('https://i.pinimg.com/564x/91/58/3c/91583c0ec50028ff4243ec9dde99a2bd.jpg');
+  --user-popout-image: url('https://clearvision.github.io/images/sapphire.jpg');
   --user-popout-position: center;
   --user-popout-size: cover;
   --user-popout-repeat: no-repeat;
@@ -51,16 +51,16 @@
   --user-modal-saturation: 100%;
   --user-modal-grayscale: 0%;
   --user-modal-invert: 0%;
-  --user-modal-blur: 3px;
-  --home-icon: url('https://clearvision.github.io/icons/discord.svg');
+  --user-modal-blur: 4px;
+  --home-icon: url('https://i.pinimg.com/564x/21/74/8d/21748d0f778364815f30297356096b89.jpg');
   --home-position: center;
-  --home-size: 40px;
-  --channel-unread: var(--main-color);
+  --home-size: 50px;
+  --channel-unread: #FFFFFF1A;
   --channel-color: rgba(255,255,255,0.3);
-  --muted-color: rgba(255,255,255,0.1);
-  --online-color: #43b581;
-  --idle-color: #faa61a;
-  --dnd-color: #982929;
+  --muted-color: rgb(255,255,255,0.1);
+  --online-color: #00FF8B;
+  --idle-color: #FFEB3B;
+  --dnd-color: #FF0000;
   --streaming-color: #593695;
   --offline-color: #808080;
   --main-font: gg sans;

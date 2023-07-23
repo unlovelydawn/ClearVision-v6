@@ -10,13 +10,14 @@
 */
 
 @import url('https://clearvision.github.io/ClearVision-v6/main.css');
+@import url('https://nyri4.github.io/Discolored/main.css');
 
 :root {
   --main-color: #99C3F5;
   --hover-color: #51749D;
-  --success-color: #14623E;
-  --danger-color: #982929;
-  --url-color: var(--main-color);
+  --success-color: #00000000;
+  --danger-color: #00000000;
+  --url-color: #00BCD4;
   --undefined: 0;
   --background-image: url('https://i.pinimg.com/564x/1f/d0/33/1fd033465fc7dea28503df7ad08d0f9e.jpg');
   --background-shading: 100%;
@@ -59,7 +60,7 @@
   --channel-unread: var(--main-color);
   --channel-color: rgba(255,255,255,0.3);
   --muted-color: rgba(255,255,255,0.1);
-  --online-color: #43b581;
+  --online-color: #4CAF50;
   --idle-color: #faa61a;
   --dnd-color: #982929;
   --streaming-color: #593695;

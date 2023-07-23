@@ -1,5 +1,5 @@
 /**
- * @name hsrofrebirth
+ * @name x+r
  * @author ClearVision Team
  * @version 6.3.0
  * @description Highly customizable and beautiful theme for BetterDiscord.
@@ -10,17 +10,15 @@
 */
 
 @import url('https://clearvision.github.io/ClearVision-v6/main.css');
-@import url('https://nyri4.github.io/Discolored/main.css');
 
 :root {
-  --main-color: #99C3F5;
-  --hover-color: #51749D;
-  --success-color: #00000000;
-  --danger-color: #00000000;
-  --url-color: #00BCD4;
-  --undefined: 0;
-  --background-image: url('https://i.pinimg.com/564x/1f/d0/33/1fd033465fc7dea28503df7ad08d0f9e.jpg');
-  --background-shading: 100%;
+  --main-color: #DF9690;
+  --hover-color: #E95E54;
+  --success-color: #F44336;
+  --danger-color: #982929;
+  --url-color: #03A9F4;
+  --background-image: url('https://i.pinimg.com/564x/1a/b1/67/1ab16799244b7e69e0afa33e5ecbc2ee.jpg');
+  --background-shading: 0%;
   --background-position: center;
   --background-size: cover;
   --background-repeat: no-repeat;
@@ -32,37 +30,37 @@
   --background-invert: 0%;
   --background-blur: 0px;
   --background-overlay: rgba(0,0,0,0.6);
-  --user-popout-image: url('https://i.pinimg.com/564x/4a/f0/7f/4af07f4c2094ff939b2d533770a94705.jpg');
+  --user-popout-image: url('https://i.pinimg.com/564x/7c/75/40/7c75406b16f801de242f85202bff10e4.jpg');
   --user-popout-position: center;
   --user-popout-size: cover;
   --user-popout-repeat: no-repeat;
   --user-popout-attachment: fixed;
-  --user-popout-brightness: 100%;
+  --user-popout-brightness: 150%;
   --user-popout-contrast: 100%;
   --user-popout-saturation: 100%;
   --user-popout-grayscale: 0%;
   --user-popout-invert: 0%;
-  --user-popout-blur: 1px;
-  --user-modal-image: url('https://i.pinimg.com/564x/11/5e/05/115e05bd9b9f1540861ad65768279031.jpg');
+  --user-popout-blur: 2px;
+  --user-modal-image: url('https://i.pinimg.com/564x/7c/75/40/7c75406b16f801de242f85202bff10e4.jpg');
   --user-modal-position: center;
   --user-modal-size: cover;
   --user-modal-repeat: no-repeat;
   --user-modal-attachment: fixed;
-  --user-modal-brightness: 100%;
+  --user-modal-brightness: 150%;
   --user-modal-contrast: 100%;
   --user-modal-saturation: 100%;
   --user-modal-grayscale: 0%;
   --user-modal-invert: 0%;
-  --user-modal-blur: 1px;
-  --home-icon: url('https://i.pinimg.com/236x/67/ac/72/67ac727654dbd8e9540567fb1fd8ca4c.jpg');
-  --home-position: 0;
-  --home-size: 52px;
-  --channel-unread: var(--main-color);
+  --user-modal-blur: 2px;
+  --home-icon: url('https://i.pinimg.com/564x/21/74/8d/21748d0f778364815f30297356096b89.jpg');
+  --home-position: center;
+  --home-size: 50px;
+  --channel-unread: #FFFFFF1A;
   --channel-color: rgba(255,255,255,0.3);
-  --muted-color: rgba(255,255,255,0.1);
-  --online-color: #4CAF50;
-  --idle-color: #faa61a;
-  --dnd-color: #982929;
+  --muted-color: rgb(255,255,255,0.1);
+  --online-color: #00FF8B;
+  --idle-color: #FFEB3B;
+  --dnd-color: #FF0000;
   --streaming-color: #593695;
   --offline-color: #808080;
   --main-font: gg sans;
